@@ -1,0 +1,43 @@
+object Form1: TForm1
+  Left = 494
+  Height = 240
+  Top = 168
+  Width = 488
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 488
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 24
+    Height = 186
+    Top = 40
+    Width = 440
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 112
+    Height = 23
+    Top = 8
+    Width = 160
+    TabOrder = 2
+    Text = '192.168.1.17'
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    left = 324
+    top = 17
+  end
+end
